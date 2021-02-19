@@ -1,0 +1,24 @@
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+main{
+  margin: 5%;
+}
+
+img{
+  float: right;
+  padding: 1%;
+  width: 30%;
+}
+
+.left{
+  float: left;
+}
+
+#titulo{
+  font-weight: bold;
+}

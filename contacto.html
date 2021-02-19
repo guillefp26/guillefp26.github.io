@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi blog de viajes</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/contacto.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienessomos.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viajes.html">Los viajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <br><br>
+    <main>
+      <div class="container">
+        <h1>Formulario de contacto</h1>
+        <h5>Si tienes alguna duda sobre nuestro trabajo o quieres informarte mejor sobre un destino, no dudes en ponerte en contacto con nosotros</h5>
+        <form>
+          <div class="alert alert-warning" role="alert">
+            Es obligatorio rellenar todos los campos del formulario.
+          </div>
+          <div class="mb-3">
+            <label for="nombreContacto" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombreContacto">
+          </div>
+          <div class="mb-3">
+            <label for="emailContacto" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailContacto" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="textoContacto" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="textoContacto" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-lg btn-secondary">Enviar</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p>&copy; 2021 GFP</p>
+      </footer>
+    </main>
+
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

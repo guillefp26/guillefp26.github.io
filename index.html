@@ -1,0 +1,167 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi blog de viajes</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienessomos.html">Quiénes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viajes.html">Los viajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carruselViajes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselViajes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carruselViajes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carruselViajes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="maldivasFoto" src="img/maldivas.jpg" alt="Spa en Maldivas">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Viaje a Maldivas</h1>
+                <p>Un destino perfecto para relajarse con aguas cristalinas</p>
+                <p><a class="btn btn-lg btn-secondary" href="viajes.html#maldivas">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id="osakaFoto" src="img/osaka.jpg" alt="Restaurantes en Osaka">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Osaka</h1>
+                <p>La cocina de Japón en una ciudad</p>
+                <p><a class="btn btn-lg btn-secondary" href="viajes.html#osaka">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id="noruegaFoto" src="img/noruega.jpg" alt="Fiordos noruegos">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Los fiordos noruegos</h1>
+                <p>Las increíbles vistas que nos ofrece este país</p>
+                <p><a class="btn btn-lg btn-secondary" href="viajes.html#noruega">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselViajes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselViajes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" width="160" height="140" src="img/marta.jpg" alt="Marta. Cámara principal del equipo">
+            <h2>Marta García</h2>
+            <p>La gran mente llena de imaginación que tenemos detrás de todas nuestras fotos</p>
+            <p><a class="btn btn-secondary" href="quienessomos.html#marta">Más información</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" width="160" height="140" src="img/hugo.jpg" alt="Hugo. Viajero experimentado">
+            <h2>Hugo López</h2>
+            <p>Más de 20 años viajando por el mundo lo convierten en el viajero más experimentado del equipo</p>
+            <p><a class="btn btn-secondary" href="quienessomos.html#hugo">Más información</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" width="160" height="140" src="img/lola.jpg" alt="Lola. Organizadora de viajes">
+            <h2>Lola Gómez</h2>
+            <p>Nuestra organizadora de viajes. Ella es la que decide cual es nuestro próximo destino.</p>
+            <p><a class="btn btn-secondary" href="quienessomos.html#lola">Más información</a></p>
+          </div>
+        </div>
+
+
+
+
+        <hr class="featurette-divider">
+
+        <h1 class="display-2 text-center">Próximos destinos</h1>
+        <br>
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Croacia. <span class="text-muted">La costa dálmata que nos enamorará</span></h2>
+            <p class="lead">Croacia despliega una estela de islas y ciudades monumentales entre la bella Dubrovnik y Zadar.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/croacia.jpg" alt="Croacia. Dubrovnik" width="500">
+          </div>
+        </div>
+        <br>
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Madagascar. <span class="text-muted">El hogar de los Baobab.</span></h2>
+            <p class="lead">Ruta por este paraíso de árboles gigantes, animales únicos y playas de coral.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="img/madagascar.jpg" alt="Croacia. Dubrovnik" width="450">
+          </div>
+        </div>
+        <br>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Perú. <span class="text-muted">Tierra de los Incas.</span></h2>
+            <p class="lead">Tras su redescubrimiento, este hito arqueológico escondido entre las altas cumbres andinas se ha convertido en las ruinas más deseadas para muchos viajeros.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/peru.jpg" alt="Croacia. Dubrovnik" width="500">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+
+      </div>
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p>&copy; 2021 GFP</p>
+      </footer>
+    </main>
+
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
