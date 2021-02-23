@@ -89,11 +89,23 @@ body {
   }
 }
 
+
 @media (max-width: 750px )  {
+  .carousel-item {
+    height: 20rem;
+  }
+  .carousel{
+    margin-bottom: 0px;
+  }
   .carousel-caption {
-    display: none;
+    bottom: 5rem;
   }
 }
+
+.imgIndex{
+  width: 80%;
+}
+
 
 #maldivasFoto{
   width: 100%;
