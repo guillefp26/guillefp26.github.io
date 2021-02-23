@@ -94,9 +94,17 @@ body {
   .carousel-item {
     height: 20rem;
   }
+  .carousel{
+    margin-bottom: 0px;
+  }
+  .carousel-caption {
+    bottom: 5rem;
+  }
 }
 
-
+.imgIndex{
+  width: 80%;
+}
 
 
 #maldivasFoto{
