@@ -1,0 +1,28 @@
+{
+  "lista": [
+    {
+      "nombre": "Marta",
+      "opiniones": {
+        "maldivas": "Mucho calor -> 8/10",
+        "osaka": "Gastronomía alucinante -> 9/10",
+        "noruega": "Precios muy elevados -> 7/10"
+      }
+    },
+    {
+      "nombre": "Hugo",
+      "opiniones": {
+        "maldivas": "Vistas increíbles -> 10/10",
+        "osaka": "Cultura muy diferente -> 6/10",
+        "noruega": "Paisajes alucinantes -> 9/10"
+      }
+    },
+    {
+      "nombre": "Lola",
+      "opiniones": {
+        "maldivas": "Colores preciosos -> 7/10",
+        "osaka": "Transporte muy puntual -> 9/10",
+        "noruega": "Rutas preciosas -> 9/10"
+      }
+    }
+  ]
+}

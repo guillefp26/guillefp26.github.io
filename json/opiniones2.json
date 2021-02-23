@@ -1,0 +1,25 @@
+{
+  "lista": [
+    {
+      "nombre": "Marta",
+      "opiniones": {
+        "hollywood": "Muy caro -> 7/10",
+        "berlin": "Historia por doquier -> 8/10"
+      }
+    },
+    {
+      "nombre": "Hugo",
+      "opiniones": {
+        "hollywood": "Mezcla cultural -> 10/10",
+        "berlin": "Comida no muy variada -> 6/10"
+      }
+    },
+    {
+      "nombre": "Lola",
+      "opiniones": {
+        "hollywood": "Playas preciosas -> 7/10",
+        "berlin": "Amabilidad -> 9/10"
+      }
+    }
+  ]
+}
